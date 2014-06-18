@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+      	android:icon="@drawable/ic_config"
+    	android:showAsAction="ifRoom|withText"
+    />
+    <item 
+        android:id="@+id/about"
+        android:title="@string/about"
+        android:icon="@drawable/ic_about"
+        android:showAsAction="always"          
+    />
+    <item
+        android:id="@+id/help"
+        android:title="@string/help"
+        android:icon="@drawable/ic_help"
+        android:showAsAction="ifRoom" 
+    />
+</menu>
